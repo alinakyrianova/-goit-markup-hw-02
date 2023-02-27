@@ -1,7 +1,8 @@
 .root{
-    --primary-text-color:#434455;
     --titel-text-color:#2E2F42;
     --background-color:#fff;
+    --subtitel-text-color:#434455;
+    --button-text-color: #4D5AE5;
 }
 .body{
     font-family: 'Roboto', sans-serif;
@@ -229,11 +230,7 @@
    }
 
    /*-------Portfolio--------*/
-.root{
-    --button-text-color:#4D5AE5;
-    --primary-text-color:#2E2F42;
-    --titel-text-color:#434455;
-}
+
 .list {
     list-style: none;
     
@@ -264,6 +261,11 @@ body{
     color:#FFFFFF;
     
 }
+.navigation-button:hover,
+.navigation-button:focus{
+    background-color: #4D5AE5;
+    color:#FFFFFF;
+}
 
     
 
@@ -271,7 +273,9 @@ body{
 .section{} 
 
 
-.list {}
+.list {
+    
+}
 
 .list-item {
 
@@ -284,18 +288,19 @@ body{
     line-height: 0,6;
     letter-spacing: 0.02em; 
     text-decoration: none;
-    color: var(--titel-text-color)
+    list-style: none;
+    color:var(--titel-text-color;)
    
 }
 
 .list-subtitel {
-    font-family: 'Roboto';
-        font-style: normal;
+    font-family:'Roboto';
         font-weight: 400;
         font-size: 16px;
         line-height: 0,93;
        letter-spacing: 0.02em;
-         color: var(--primary-text-color);
+        color:var(--subtitel-text-color;)
+        
 }
 /*footer*/
 
