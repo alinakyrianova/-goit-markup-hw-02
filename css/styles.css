@@ -3,6 +3,7 @@
     --background-color:#fff;
     --subtitel-text-color:#434455;
     --button-text-color: #4D5AE5;
+    
 }
 .body{
     font-family: 'Roboto', sans-serif;
@@ -16,7 +17,7 @@
             line-height: 0.93;
             align-items: center;
             letter-spacing: 0.04em;
-            color: #fff;
+            color: #FFFFFF;
             background-color:#4D5AE5;
             cursor: pointer;
 
@@ -230,7 +231,10 @@
    }
 
    /*-------Portfolio--------*/
-
+.root{
+    --hover-background-color:#404BBF;
+     --background-button-color:#E7E9FC;
+}
 .list {
     list-style: none;
     
@@ -257,14 +261,13 @@ body{
         
  }
 
-.navigation-button:hover{
-    color:#FFFFFF;
+
     
-}
+
 .navigation-button:hover,
-.navigation-button:focus{
-    background-color: #4D5AE5;
-    color:#FFFFFF;
+.navigation-button:focus {
+  color: #FFFFFF;
+  background-color: #404BBF;
 }
 
     
