@@ -1,4 +1,4 @@
-.root{
+:root{
     --dark-color: #2E2F42;
     --light-color-button: #F4F4FD;
     --text-color: #434455;
@@ -33,7 +33,7 @@ body{
            .link {
                text-decoration: none;
            }
-/*.visually-hidden {
+.visually-hidden {
     position: absolute;
     top: -150%;
     z-index: -100;
@@ -50,7 +50,7 @@ body{
     border: none;
     outline: none;
     white-space: nowrap;
-}*/
+}
 
  
 /* -------header-------- */
@@ -166,7 +166,7 @@ body{
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-         color: var(--primary-text-color);
+         color: var(--text-color);
 }
 
 /*section doing*/
@@ -180,7 +180,7 @@ body{
         text-align: center;
         letter-spacing: 0.02em;
         text-transform: capitalize;
-        color: var(--titel-text-color);
+        color: var(--text-color);
 }
 
 /*section team*/
@@ -194,7 +194,7 @@ body{
         text-align: center;
         letter-spacing: 0.02em;
         text-transform: capitalize;
-        color: var(--titel-text-color);
+        color: var(--text-color);
 }
 
 .team-list {}
@@ -207,7 +207,7 @@ body{
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
-        color: var(--titel-text-color);
+        color: var(--text-color);
 }
 
 .team-subtitel {
@@ -216,7 +216,7 @@ body{
         font-size: 16px;
         line-height: 1.6;
        letter-spacing: 0.02em;
-        color: var(--primary-text-color);
+        color: var(--text-color);
 }
 /*footer*/
 
@@ -270,7 +270,7 @@ body{
         line-height: 1.5;
         letter-spacing: 0.04em;
         color: var(--primary-brand-color);
-        background-color: var(--background-button-color);
+        background-color: var(--cornflower-color);
        cursor: pointer;
        
         
