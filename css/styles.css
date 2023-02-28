@@ -1,17 +1,17 @@
 .root{
-    --dark-color:#2E2F42;
-    --light-color-button:#F4F4FD;
-    --text-color:#434455;
+    --dark-color: #2E2F42;
+    --light-color-button: #F4F4FD;
+    --text-color: #434455;
     --primary-brand-color: #4D5AE5;
-    --primary-white-color:#fff;
-    --pressed-state-color:#404BBF;
-    --cornflower-color#E7E9FC;
+    --primary-white-color: #fff;
+    --pressed-state-color: #404BBF;
+    --cornflower-color: #E7E9FC;
     
 }
 body{
-    font-family:'Roboto', sans-serif;
+    font-family:'Roboto',sans-serif;
     background-color: var(--primary-white-color);
-    color:var(--primary-brand-color);
+    color: var(--primary-brand-color);
     }
     .btn{
             font-family: 'Roboto', sans-serif;
@@ -20,12 +20,20 @@ body{
             line-height: 1.5;
             align-items: center;
             letter-spacing: 0.04em;
-            color:var(--primary-white-color);
-            background-color:var(--primary-brand-color);
+            color: var(--primary-white-color);
+            background-color: var(--primary-brand-color);
             cursor: pointer;
 
     }
-.visually-hidden {
+
+           .list {
+               list-style: none;
+           }
+    
+           .link {
+               text-decoration: none;
+           }
+/*.visually-hidden {
     position: absolute;
     top: -150%;
     z-index: -100;
@@ -42,14 +50,9 @@ body{
     border: none;
     outline: none;
     white-space: nowrap;
-}
+}*/
 
-    .list{
-        list-style: none;
-    }
-    .link{
-        text-decoration: none;
-    }
+ 
 /* -------header-------- */
 .header {
     background-color: var(--cornflower-color);
@@ -67,12 +70,11 @@ body{
 }
 .header-logo
 {
-        font-family:"Raleway", sans-serif;
+        font-family:'Raleway', sans-serif;
         font-weight: 800;
         font-size: 18px;
         line-height: 1.33;
-        display: flex;
-        align-items: center;
+        
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: var(--primary-brand-color);
@@ -92,50 +94,49 @@ body{
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color: var(--titel-text-color)
+        color: var(--dark-color);
     }
     .header-link:hover,
     .header-link:focus {
-        color:#4D5AE5;
+        color: var(--primary-brand-color);
     }
 .header-mail {
         font-family: 'Roboto';
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-          color: var(--subtitel-text-color);
+          color: var(--text-color);
           font-style: normal;
           }
 .header-mail:hover,
 .header-mail:focus{
-    color:#4D5AE5;
+    color: var(--primary-brand-color);
 }
 .header-telephone {
         font-family: 'Roboto';
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        color:var(--subtitel-text-color);
+        color: var(--text-color);
         font-style: normal;
 }
 .header-telephone:hover,
 .header-mail:focus{
-    color:var(--button-text-color);
+    color: var(--primary-brand-color);
 }
 /*hero*/
 .hero {
-    background-color: #2E2F42;
+    background-color: var(--dark-color);
        
    
 }
 
 .hero-titel {
-        
         font-size: 56px;
         line-height:1.07;
         text-align: center;
         letter-spacing: 0.02em;
-        color:var(--background-color);
+        color: var(--primary-white-color);
 }
 
 .hero-button {
@@ -157,7 +158,7 @@ body{
         font-size: 20px;
         line-height:1.2;
         letter-spacing: 0.02em;
-        color:var(--titel-text-color);
+        color: var(--dark-color);
 }
 
 .feature-subtitel {
@@ -179,7 +180,7 @@ body{
         text-align: center;
         letter-spacing: 0.02em;
         text-transform: capitalize;
-        color: var(--titel-text-color)
+        color: var(--titel-text-color);
 }
 
 /*section team*/
@@ -193,7 +194,7 @@ body{
         text-align: center;
         letter-spacing: 0.02em;
         text-transform: capitalize;
-        color:var(--titel-text-color)
+        color: var(--titel-text-color);
 }
 
 .team-list {}
@@ -206,7 +207,7 @@ body{
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
-        color: var(--titel-text-color)
+        color: var(--titel-text-color);
 }
 
 .team-subtitel {
@@ -215,7 +216,7 @@ body{
         font-size: 16px;
         line-height: 1.6;
        letter-spacing: 0.02em;
-        color: var(--primary-text-color)
+        color: var(--primary-text-color);
 }
 /*footer*/
 
@@ -230,11 +231,11 @@ body{
             align-items: center;
             letter-spacing: 0.03em;
             text-transform: uppercase;
-            color:var(--button-text-color;)
+            color: var(--primary-brand-color);
         }
     
         .footer-logo span {
-            color: #F4F4FD;
+            color: var(--light-color-button);
     
         }
 
@@ -247,10 +248,10 @@ body{
         font-size: 16px;
         line-height: 0,93;
         letter-spacing: 0.02em;
-         color: #E7E9FC;
+         color: var(--cornflower-color);
 }
 .footer {
-    background-color: #2E2F42;
+    background-color: var(--dark-color);
     
    }
 
@@ -268,7 +269,7 @@ body{
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.04em;
-        color:var(--primary-brand-color);
+        color: var(--primary-brand-color);
         background-color: var(--background-button-color);
        cursor: pointer;
        
@@ -280,8 +281,8 @@ body{
 
 .navigation-button:hover,
 .navigation-button:focus {
-  color:var(--primary-white);
-  background-color: #404BBF;
+  color: var(--primary-white);
+  background-color: var(--pressed-state-color);
 }
 
     
@@ -306,7 +307,7 @@ body{
     letter-spacing: 0.02em; 
     text-decoration: none;
     list-style: none;
-    color:var(--titel-text-color;)
+    color: var(--titel-text-color;)
    
 }
 
@@ -316,7 +317,7 @@ body{
         font-size: 16px;
         line-height: 0,93;
        letter-spacing: 0.02em;
-        color:var(--subtitel-text-color;)
+        color: var(--subtitel-text-color;)
         
 }
 /*footer*/
@@ -350,7 +351,7 @@ body{
     font-size: 16px;
     line-height: 0,93;
     letter-spacing: 0.02em;
-    color: #E7E9FC;
+    color:var(--cornflower-color);
 }
 
 .footer {
