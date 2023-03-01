@@ -11,7 +11,7 @@
 body{
     font-family:'Roboto',sans-serif;
     background-color: var(--primary-white-color);
-    color: var(--primary-brand-color);
+    color: var(--dark-color);
     }
     .btn{
             font-family: 'Roboto', sans-serif;
@@ -55,7 +55,7 @@ body{
  
 /* -------header-------- */
 .header {
-    background-color: var(--cornflower-color);
+    background-color: var(--primary-white-color);
     
 }
 
@@ -101,7 +101,7 @@ body{
         color: var(--primary-brand-color);
     }
 .header-mail {
-        font-family: 'Roboto';
+        
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -113,7 +113,7 @@ body{
     color: var(--primary-brand-color);
 }
 .header-telephone {
-        font-family: 'Roboto';
+        
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
@@ -173,28 +173,26 @@ body{
 .doing {}
 
 .doing-titel {
-        font-family: 'Roboto';
-        font-weight: 700;
+        
         font-size: 36px;
         line-height:1.1;
         text-align: center;
         letter-spacing: 0.02em;
         text-transform: capitalize;
-        color: var(--text-color);
+        color: var(--dark-color);
 }
 
 /*section team*/
 .section-team {}
 
 .section-titel {
-        font-family: 'Roboto';
-        font-weight: 700;
+        
         font-size: 36px;
         line-height:1.1;
         text-align: center;
         letter-spacing: 0.02em;
         text-transform: capitalize;
-        color: var(--text-color);
+        color: var(--dark-color);
 }
 
 .team-list {}
@@ -202,58 +200,22 @@ body{
 .team-item {}
 
 .team-titel {
-        font-family: 'Roboto';
+        
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
         letter-spacing: 0.02em;
-        color: var(--text-color);
+        color: var(--dark-color);
 }
 
 .team-subtitel {
-        font-family: 'Roboto';
-        font-weight: 400;
+        
+        
         font-size: 16px;
         line-height: 1.6;
        letter-spacing: 0.02em;
         color: var(--text-color);
 }
-/*footer*/
-
-
-.footer-logo {
-    
-            font-family: 'Raleway';
-            font-weight: 800;
-            font-size: 18px;
-            line-height: 1.33;
-            display: flex;
-            align-items: center;
-            letter-spacing: 0.03em;
-            text-transform: uppercase;
-            color: var(--primary-brand-color);
-        }
-    
-        .footer-logo span {
-            color: var(--light-color-button);
-    
-        }
-
-
-.link {}
-
-.footer-subtitel {
-        font-family: 'Roboto';
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 0,93;
-        letter-spacing: 0.02em;
-         color: var(--cornflower-color);
-}
-.footer {
-    background-color: var(--dark-color);
-    
-   }
 
    /*-------Portfolio--------*/
 
@@ -281,7 +243,7 @@ body{
 
 .navigation-button:hover,
 .navigation-button:focus {
-  color: var(--primary-white);
+  color: var(--primary-white-color);
   background-color: var(--pressed-state-color);
 }
 
@@ -300,47 +262,47 @@ body{
 }
 
 .titel {
-    font-family:'Roboto';
-    font-weight: 500;
+    
+   
     font-size: 20px;
     line-height: 0,6;
     letter-spacing: 0.02em; 
     text-decoration: none;
     list-style: none;
-    color: var(--titel-text-color;)
+    color: var(--dark-color);
    
 }
 
 .works-description{
-    font-family:'Roboto';
-        font-weight: 400;
+    
         font-size: 16px;
         line-height: 0,93;
        letter-spacing: 0.02em;
-        color: var(--subtitel-text-color;)
+        color: var(--text-color);
         
 }
 /*footer*/
 
-
 .footer-logo {
 
-    font-family: 'Raleway'
-        font-weight: 800;
+    font-family: 'Raleway';
+    font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
     display: flex;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    /* IRIS */
-    color: #4D5AE5;
+    color: var(--primary-brand-color);
 }
 
 .footer-logo span {
-    color: #F4F4FD;
+    color: var(--light-color-button);
 
 }
+
+
+
 
 
 .link {}
